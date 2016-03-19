@@ -1,0 +1,21 @@
+#profile
+{
+	margin-top:70px;
+	width: 100%;
+	height: auto;
+}
+
+#form-status
+{
+	margin-bottom: 20px;
+}
+
+#form-status > form > textarea
+{
+	resize:none;
+}
+
+#form-status input,textarea
+{
+	margin-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+use webcodebox;
+
+create table user (
+	id_user varchar(10) primary key not null,
+    nickname varchar(25) not null,
+    email varchar(30) not null,
+    psw varchar(25) not null,
+    photo_profile varchar(100) not null,
+    conexion varchar(10) not null
+);
+
+select * from user;
+insert into user values('A-01','Clarke','eretana60@gmail.com','123','users/us1.jpg','on')

@@ -1,0 +1,145 @@
+/* Css Sidebar with Bootstrap */
+
+body
+{
+	background-color: #e9eaed;
+}
+
+#sidebar-wrapper
+{
+	z-index: 1;
+	position: fixed;
+	width: 75px;
+	height: 100%;
+	background-color: #272c32;
+	opacity: 1;
+	overflow-y:hidden;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper #page-content-wrapper
+{
+	padding-left: 75px;
+}
+
+.toggle-text
+{
+	display: none;
+}
+
+
+#wrapper.menuDisplayed .toggle-text
+{
+	display: inline-block;
+	font-size: 16px;
+}
+
+li img
+{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+li img:hover
+{
+	opacity: 1;
+}
+
+/* Main Content */
+
+#page-content-wrapper
+{
+	width: 100%;
+	position: absolute;
+
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* On event click of button */
+
+#wrapper.menuDisplayed #sidebar-wrapper
+{
+	width: 200px;	
+}
+
+#wrapper.menuDisplayed #page-content-wrapper
+{
+	padding-left: 200px;
+}
+
+/* Sidebar Styling */
+
+.sidebar-nav
+{
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav li
+{
+	text-indent: 14px;
+	line-height: 40px;
+	border-bottom: 1px dotted #5b595a;
+}
+
+.sidebar-nav li a
+{
+	display: block;
+	text-decoration: none;
+	color:#78797F;
+	font-size: 20px;
+}
+
+.sidebar-nav li a:hover
+{
+	background-color: #fc503c;
+	color: white;
+}
+
+.on
+{
+	border-left: 2px solid #fc503c;
+}
+
+#btn-out
+{
+	cursor: pointer;
+}
+
+/* Style for Smartphones */
+
+
+@media (max-width: 630px) {
+	
+	#sidebar-wrapper
+	{
+		width: 0px;
+	}
+
+	#wrapper #page-content-wrapper
+	{
+		padding-left: 0px;
+	}
+
+	#wrapper.menuDisplayed .toggle-text
+	{
+		display: none;
+	}
+
+	#wrapper.menuDisplayed #sidebar-wrapper
+	{
+		width: 75px;	
+	}
+
+	#wrapper.menuDisplayed #page-content-wrapper
+	{
+		padding-left: 75px;
+	}
+
+}

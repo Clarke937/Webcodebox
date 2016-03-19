@@ -1,0 +1,137 @@
+.Forum
+{
+	margin-top: 70px;
+}
+
+.form-forum > form > textarea
+{
+	resize:none;
+}
+
+.form-forum > form > label
+{
+	margin-top:7px;
+}
+
+.unanswered
+{
+	border: 2px solid tomato;
+}
+
+.unanswered > .panel-heading > .question-status > a
+{
+	color: tomato;
+}
+
+.answered
+{
+	border: 2px solid #1E9846;
+}
+
+.answered > .panel-heading > .question-status > a
+{
+	color: #1E9846;
+}
+
+.question > .panel-heading
+{
+	min-height: 70px;
+}
+
+.question > .panel-heading > img
+{
+	width: 50px;
+	height: 50px;
+	max-width: 50px;
+	max-height: 50px;
+	cursor: pointer;
+	margin-right: 15px;
+}
+
+.question > .panel-heading > span
+{
+	font-weight: bold;
+}
+
+.question > .panel-heading > span > strong
+{
+	color: #265E8F;
+}
+
+.question > .panel-heading > small
+{
+	font-weight: normal;
+	color: #777;
+	line-height: 1;
+}
+
+.question > .panel-footer
+{
+	padding: 0px;
+	cursor: pointer;
+}
+
+.question > .panel-footer:hover
+{
+	background-color: #EFEFEF;
+}
+
+.panel-body > ul
+{
+	list-style: none;
+	padding: 0;
+	margin-top:-10px; 
+}
+
+.panel-body > ul > a > .lenguage
+{
+	font-size: 22px;
+	float: left;
+	margin-right: 5px;
+	display: inline-block;
+	background-color: #fff;
+	padding: 2px 7px;
+	border: 1px solid #272C32;
+	border-radius: 5px;
+	color: #265E8F;
+}
+
+.panel-body > ul > a > li:hover
+{
+	background-color: #F2F2F2;
+}
+
+#Screenshoots
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+
+#Screenshoots > a > li
+{
+	padding: left;
+	margin-right: 5px;
+	display: inline-block;
+	padding: 15px;
+	border: 1px dotted #8B8B8B;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	color: #272c32;
+}
+
+#Screenshoots > a > li:hover
+{
+	background-color: #F3F3F3;
+}	
+
+
+
+@media (max-width: 765px){
+	.tabs-forum{margin-top: 25px;}
+}
+
+@media (max-width: 660px){
+	.tab-title{display: none;}
+}

@@ -1,0 +1,2 @@
+Cerrar Session = 500
+Cambiar estado de pregunta = 501

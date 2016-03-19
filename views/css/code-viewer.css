@@ -1,0 +1,11 @@
+#Viewer
+{
+	margin-top:70px;
+	width: 100%;
+	height: auto;
+}
+
+.tabs-viewer > div > ul > li > a > i
+{
+	font-size: 22px;
+}

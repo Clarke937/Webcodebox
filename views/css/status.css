@@ -1,0 +1,138 @@
+/* Style of Personal Status */
+
+.status
+{
+	-webkit-box-shadow: 5px 5px 21px -2px rgba(140,140,140,1);
+	-moz-box-shadow: 5px 5px 21px -2px rgba(140,140,140,1);
+	box-shadow: 5px 5px 21px -2px rgba(140,140,140,1);
+}
+
+#statuses > .status > .panel-body > img
+{
+	margin-right: 15px;
+	max-width: 46px;
+	max-height: 46px;
+	width: 46px;
+	height: 46px;
+	cursor: pointer;
+}
+
+#statuses > .status > .panel-body > h3
+{
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#statuses > .status > .panel-body > h5
+{
+	color: rgb(153, 153, 153);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.status > .panel-heading
+{
+	background-color: white;
+	border: 0px;
+}
+
+.status > .panel-body
+{
+	background-color: white;
+}
+
+.status > .panel-footer
+{
+	background-color: white;
+}
+
+.btn.btn-self
+{
+	background-color: #282f35;
+	color: white;
+}
+
+.status > .panel-heading > .dropdown > span > span
+{
+	position: absolute;
+	right: 0px;
+	top: initial;
+	color: #A0A0A0;
+	cursor: pointer;
+}
+
+.status > .panel-heading > .dropdown > span > span:hover
+{
+	color: #545454;
+}
+
+.status > .panel-heading > .dropdown > .dropdown-menu
+{
+	left: initial;
+	right: 0px;
+	border-radius: 2px;
+}
+
+.status > .panel-heading > .dropdown > .dropdown-menu > li > a:hover
+{
+	background-color: #282f35;
+	color: white
+}
+
+#arrow-comments
+{
+	width: 100%;
+	margin-top: 5px;
+	color: #2E6382;
+	cursor: pointer;
+}
+
+#arrow-comments > a
+{
+	text-decoration: none;
+}
+
+#arrow-comments:hover
+{
+	color: #4A83E0;
+}
+
+.comment
+{
+	padding: 7px;
+	text-align: justify;
+	margin-top: 7px;
+	border-bottom: 1px dotted #C7C7C7;
+}
+
+.comment:hover
+{
+	background-color: #F6F4FF;
+}
+
+.comment > img
+{
+	width: 46px;
+	height: 46px;
+	max-width: 46px;
+	max-height: 46px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.comment > h3
+{
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.comment > h5
+{
+	color: rgb(153, 153, 153);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
